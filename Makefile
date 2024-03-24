@@ -1,4 +1,4 @@
-.SILENT:     # don't show command being run
+.SILENT:              # don't show command being run
 .DEFAULT_GOAL := help # default target
 
 ## Start all docker containers
