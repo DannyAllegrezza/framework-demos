@@ -1,5 +1,5 @@
 .SILENT:              # don't show command being run
-.DEFAULT_GOAL := help # default target
+.DEFAULT_GOAL := help # when just running "make", who help menu
 
 ## Start all docker containers
 start:
