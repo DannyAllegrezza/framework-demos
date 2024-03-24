@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  vite-react:
+    build:
+      context: ./src/vite-react
+      target: dev
+    ports:
+      - 8081:8081
+    volumes:
+      - ./src/vite-react:/srv/app
